@@ -48,5 +48,11 @@
 	<string>zh-Hant</string>
 	<key>Japanese(ja)</key>
 	<string>ja</string>
+	<key>Vietnamese(vi)</key>
+	<string>vi</string>
+	<key>Portuguese (Brazil)</key>
+	<string>pt-BR</string>
+	<key>ChineseSimple</key>
+	<string>zh-Hans</string>
 </dict>
 </plist>

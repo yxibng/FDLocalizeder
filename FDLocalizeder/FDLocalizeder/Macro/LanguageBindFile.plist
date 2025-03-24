@@ -82,6 +82,7 @@
 	<array>
 		<string>pt葡萄牙语</string>
 		<string>pt葡萄牙语-Portuguese</string>
+		<string></string>
 	</array>
 	<key>th</key>
 	<array>
@@ -116,6 +117,18 @@
 		<string>tw繁体中文</string>
 		<string>tw</string>
 		<string>繁體中文Chinese(traditional)</string>
+	</array>
+	<key>vi</key>
+	<array>
+		<string>vi</string>
+	</array>
+	<key>pt-BR</key>
+	<array>
+		<string>pt-BR</string>
+	</array>
+	<key>zh-Hans</key>
+	<array>
+		<string>zh-Hans</string>
 	</array>
 </dict>
 </plist>
