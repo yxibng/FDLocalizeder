@@ -44,7 +44,6 @@
 		3AD136C520A539690098664E /* FDMainDataViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD136C420A539690098664E /* FDMainDataViewModel.m */; };
 		3AD136CA20A57AA60098664E /* FDUndoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD136C920A57AA60098664E /* FDUndoManager.m */; };
 		3ADB72642099B14700946E67 /* FDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB72632099B14700946E67 /* FDViewController.m */; };
-		3ADB727A2099C7F600946E67 /* XlsxReaderWriter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADB72762099C78900946E67 /* XlsxReaderWriter.framework */; };
 		3ADB727C2099C80100946E67 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADB727B2099C80100946E67 /* libz.tbd */; };
 		3ADB72832099C83900946E67 /* MPDragDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB72812099C83800946E67 /* MPDragDropView.m */; };
 		3ADB72922099C84800946E67 /* MPTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB728A2099C84800946E67 /* MPTask.m */; };
@@ -55,6 +54,8 @@
 		82FBA32E1D654DF7007AE170 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FBA32D1D654DF7007AE170 /* main.m */; };
 		82FBA3331D654DF7007AE170 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82FBA3321D654DF7007AE170 /* Assets.xcassets */; };
 		82FBA3361D654DF7007AE170 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FBA3341D654DF7007AE170 /* Main.storyboard */; };
+		86DE9D862D924999006B78C8 /* XlsxReaderWriter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADB72762099C78900946E67 /* XlsxReaderWriter.framework */; };
+		86DE9D872D924999006B78C8 /* XlsxReaderWriter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADB72762099C78900946E67 /* XlsxReaderWriter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				86DE9D872D924999006B78C8 /* XlsxReaderWriter.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,7 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ADB727C2099C80100946E67 /* libz.tbd in Frameworks */,
-				3ADB727A2099C7F600946E67 /* XlsxReaderWriter.framework in Frameworks */,
+				86DE9D862D924999006B78C8 /* XlsxReaderWriter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
